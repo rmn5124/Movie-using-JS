@@ -5,22 +5,21 @@
 }
 
 body{
-    background-color: #22254b;
+    background-color: Black;
     font-family: "Poppins",sans-serif;
     margin: 0;
 }
 
 header{
-    background-color: #373b69;
+    background-color: #0c0c0c;
     padding: 1rem;
     display: flex;
     justify-content: flex-end;
 }
 
-
 .search{
     background-color: transparent;
-    border: 2px solid #22254b;
+    border: 2px solid #4b2246;
     padding: 0.5rem 1rem;
     font-family: inherit;
     border-radius: 50px;
@@ -29,21 +28,22 @@ header{
 }
 
 .search::placeholder{
-    color: #7378c5;
+    color: #f5f0ee;
 }
 
 .search:focus{
     outline: none;
-    background-color: #22254b;
+    background-color: #45464e;
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie{
-    background-color: #373b69;
+    background-color: #0d0d0e;
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
@@ -89,7 +89,7 @@ main{
 }
 
 .overview{
-    background-color:#545ba0;
+    background-color: #aaaaaa;
     padding: 2rem;
     position : absolute;
     max-height: 100%;
